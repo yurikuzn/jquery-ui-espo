@@ -21,6 +21,8 @@ module.exports = grunt => {
                             cwd: path.resolve('node_modules/jquery-ui'),
                         },
                         [
+                            'ui/version.js',
+                            'ui/ie.js',
                             'ui/widget.js',
                             'ui/mouse.js',
                             'ui/position.js',
